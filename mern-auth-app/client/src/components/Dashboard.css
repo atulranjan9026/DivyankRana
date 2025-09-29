@@ -1,0 +1,59 @@
+.dashboard-container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    padding: 1.5rem;
+    width: 280px;
+    text-align: left;
+  }
+  
+  .card h2 {
+    margin-bottom: 1rem;
+    color: #1976d2; /* Blue accent */
+  }
+  
+  .profile-card p,
+  .stats-card p,
+  .notifications-card ul {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333333;
+  }
+  
+  .notifications-card ul {
+    padding-left: 1.2rem;
+    list-style-type: disc;
+  }
+  
+  .logout-btn {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background-color: #d32f2f;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #9a0007;
+  }
+  

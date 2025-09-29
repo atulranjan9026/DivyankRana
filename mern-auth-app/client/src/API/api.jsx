@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:5000/api/auth"
+    baseURL: "https://divyank-rana-4rym.vercel.app/api/auth"
 });
 
-export const register = (formData) => API.post("/register", formData);
-export const login = (formData) => API.post("/login", formData);
+export const register = (formData) => API.post("/api/auth/register", formData);
+export const login = (formData) => API.post("/api/auth/login", formData);
